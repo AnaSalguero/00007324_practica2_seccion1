@@ -1,0 +1,28 @@
+.container {
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: 270px 270px;
+  padding: 10px;
+  justify-content: center;
+  gap: 20px;
+}
+.page {
+  text-align: center;
+}
+.container p, 
+.container h5 {
+  font-size: 14px;
+  text-align: center;
+}
+.item {
+  display: grid;
+  place-items: center;  
+  background-color: rgb(166, 223, 242);
+  border-radius: 20px;
+}
+img {
+  width:120px;
+  height:150px;
+  border-radius: 10px;
+}
+

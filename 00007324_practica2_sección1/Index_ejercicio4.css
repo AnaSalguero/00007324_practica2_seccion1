@@ -1,0 +1,14 @@
+.container {
+  display:grid;
+  grid-template-columns: 
+    1fr 1fr
+    minmax(10px, 1fr) 3fr
+    repeat(5, 1fr)
+    50px auto 100px 1fr;
+}
+/*Aunque no pedia cambiar tamaño o diseño de imagen, decidi agregarlo para evitar que la
+  pagina web se vea desordenada por los distintos tamaños de imagen*/
+img {
+  width:120px;
+  height:150px;
+}
